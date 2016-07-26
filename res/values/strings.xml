@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ws_url">http://210.245.30.145/LocationServer</string>
+    <string name="app_name">ML Driver</string>
+    <string name="app_version">1.17</string>
+    <string name="text_driver_id">Mã nhân viên</string>
+    <string name="text_car_number">Số tài</string>
+    <string name="text_phone_number">Điện thoại di động</string>
+    <string name="text_password">Mật khẩu</string>
+    <string name="danh_sach_khach_goi">KHÁCH CHỜ ĐÓN</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

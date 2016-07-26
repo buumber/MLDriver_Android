@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent" android:background="@color/green_bkg">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" android:gravity="center_horizontal"
+            android:layout_weight="3">
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="0dp" android:layout_weight="1">
+        </LinearLayout>
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/logo" android:src="@drawable/mlg_logo"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LÁI XE ĐĂNG NHẬP"
+            android:id="@+id/textView" android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            style="@style/textView_Size_18_White"
+            android:gravity="center_horizontal"/>
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="0dp"
+                      android:layout_weight="1" android:gravity="bottom|center_horizontal" android:padding="5dp">
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/app_version"
+                    android:id="@+id/textView2" android:textSize="10sp"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" android:layout_weight="4">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="0dp"
+                      android:layout_weight="1"/>
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:paddingLeft="10dp"
+                android:paddingRight="10dp" android:layout_marginRight="10dp">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtDriverID" android:layout_gravity="center_horizontal"
+                android:background="@drawable/round_textbox"
+                android:hint="@string/text_driver_id"
+                android:layout_marginTop="5dp"
+                android:imeOptions="actionNext|flagNoExtractUi"
+                android:layout_marginBottom="5dp"
+                android:inputType="numberSigned"
+                style="@style/editText_Size_14_Black"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtCarNumber" android:layout_gravity="center_horizontal"
+                android:background="@drawable/round_textbox"
+                android:hint="@string/text_car_number"
+                android:imeOptions="actionNext|flagNoExtractUi"
+                android:layout_marginBottom="5dp"
+                style="@style/editText_Size_14_Black"
+                android:maxLines="1"
+                android:singleLine="true"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtDriverPhone" android:layout_gravity="center_horizontal"
+                android:background="@drawable/round_textbox"
+                android:hint="@string/text_phone_number"
+                android:imeOptions="actionNext|flagNoExtractUi"
+                android:layout_marginBottom="5dp"
+                android:inputType="number"
+                style="@style/editText_Size_14_Black"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:ems="10"
+                android:id="@+id/txtDriverPwd" android:layout_gravity="center_horizontal"
+                android:background="@drawable/round_textbox"
+                android:hint="@string/text_password"
+                android:imeOptions="actionDone|flagNoExtractUi"
+                android:layout_marginBottom="5dp"
+                style="@style/editText_Size_14_Black"/>
+
+            <CheckBox
+                style="@style/checkBox_Size_14_White"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lưu lại cho lần sau"
+                android:id="@+id/chkRemember"
+                android:layout_marginTop="5dp"/>
+        </LinearLayout>
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:gravity="center_horizontal"
+                android:layout_marginTop="5dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Đăng nhập"
+                android:id="@+id/btnLogin" android:background="@drawable/login_button"
+                android:focusableInTouchMode="false" android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                style="@style/button_TextSize_18_Black"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="0dp"
+                      android:layout_weight="1"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+    </LinearLayout>
+</LinearLayout>

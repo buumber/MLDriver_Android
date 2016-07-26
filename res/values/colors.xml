@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="green_bkg" type="color">#00913E</item>
+    <item name="darkgreen_bkg" type="color">#007D35</item>
+    <item name="label_text_color" type="color">#fff</item>
+    <item name="blue_bright" type="color">#0040ff</item>
+    <item name="green_light" type="color">#40ff00</item>
+    <item name="orange_light" type="color">#ffbf00</item>
+    <item name="red_light" type="color">#ff4000</item>
+    <item name="yellow_bkg" type="color">#ffef3d</item>
+    <item name="white_bkg" type="color">#fff</item>
+    <item name="red_bkg" type="color">#f34666</item>
+</resources>

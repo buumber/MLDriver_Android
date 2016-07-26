@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content"
+              android:id="@+id/linearLayout" android:gravity="center_vertical" android:paddingLeft="10dp"
+              android:paddingRight="10dp" android:background="@color/darkgreen_bkg">
+
+        <ImageButton android:layout_width="wrap_content" android:layout_height="wrap_content"
+                     android:id="@+id/btnHome" android:background="@drawable/home_button"
+                     android:contentDescription="Home"/>
+        <LinearLayout android:orientation="vertical" android:layout_width="0dp"
+                      android:layout_height="wrap_content" android:paddingLeft="5dp" android:paddingRight="5dp"
+                      android:layout_weight="1"
+            android:layout_marginTop="5dp"
+                      android:layout_marginBottom="5dp">
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="(1234)"
+                      android:id="@+id/tvDriverID"
+                      style="@style/textView_Size_22_White"
+                android:gravity="center_horizontal" />
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                      android:text="Nguyễn Văn Đông A" android:id="@+id/tvDriverName"
+                style="@style/textView_Size_22_White"
+                android:gravity="center_horizontal" />
+        </LinearLayout>
+        <ImageButton android:layout_width="wrap_content" android:layout_height="wrap_content"
+                     android:id="@+id/btnExit" android:background="@drawable/logout_button"
+                     android:contentDescription="Exit"
+                     android:visibility="gone" />
+</LinearLayout>

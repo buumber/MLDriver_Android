@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="splashScreenTheme" parent="@android:style/Theme.DeviceDefault.Light.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_screen</item>
+    </style>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@drawable/app_background</item>
+    </style>
+
+    <style name="editText_Size_22_Black" parent="@android:style/Widget.EditText">
+        <item name="android:textColor">#000</item>
+        <item name="android:textSize">@dimen/size_22sp</item>
+        <item name="android:textColorHint">#A9A9A9</item>
+        <item name="android:padding">10dp</item>
+    </style>
+    <style name="editText_Size_14_Black" parent="@android:style/Widget.EditText">
+        <item name="android:textColor">#000</item>
+        <item name="android:textSize">@dimen/size_14sp</item>
+        <item name="android:textColorHint">#A9A9A9</item>
+        <item name="android:padding">10dp</item>
+    </style>
+    <style name="button_TextSize_14_Black" parent="@android:style/Widget.Button">
+        <item name="android:textColor">#000</item>
+        <item name="android:textSize">@dimen/size_14sp</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+    <style name="button_TextSize_18_Black" parent="@android:style/Widget.Button">
+        <item name="android:textColor">#000</item>
+        <item name="android:textSize">@dimen/size_18sp</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+    <style name="button_TextSize_22_Black" parent="@android:style/Widget.Button">
+        <item name="android:textColor">#000</item>
+        <item name="android:textSize">@dimen/size_22sp</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+    <style name="button_TextSize_26_Black" parent="@android:style/Widget.Button">
+        <item name="android:textColor">#000</item>
+        <item name="android:textSize">@dimen/size_26sp</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+    <style name="button_TextSize_14_Black_Padding_10" parent="@android:style/Widget.Button">
+        <item name="android:textColor">#000</item>
+        <item name="android:textSize">@dimen/size_14sp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:padding">10dp</item>
+    </style>
+    <style name="button_TextSize_18_Black_Padding_10" parent="@android:style/Widget.Button">
+        <item name="android:textColor">#000</item>
+        <item name="android:textSize">@dimen/size_18sp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:padding">10dp</item>
+    </style>
+    <style name="button_TextSize_22_Black_Padding_10" parent="@android:style/Widget.Button">
+        <item name="android:textColor">#000</item>
+        <item name="android:textSize">@dimen/size_22sp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:padding">10dp</item>
+    </style>
+    <style name="button_TextSize_26_Black_Padding_10" parent="@android:style/Widget.Button">
+        <item name="android:textColor">#000</item>
+        <item name="android:textSize">@dimen/size_26sp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:padding">10dp</item>
+    </style>
+    <style name="button_TextSize_14_White" parent="@android:style/Widget.Button">
+        <item name="android:textColor">#fff</item>
+        <item name="android:textSize">@dimen/size_14sp</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+    <style name="button_TextSize_18_White" parent="@android:style/Widget.Button">
+        <item name="android:textColor">#fff</item>
+        <item name="android:textSize">@dimen/size_18sp</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+    <style name="button_TextSize_22_White" parent="@android:style/Widget.Button">
+        <item name="android:textColor">#fff</item>
+        <item name="android:textSize">@dimen/size_22sp</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+    <style name="button_TextSize_26_White" parent="@android:style/Widget.Button">
+        <item name="android:textColor">#fff</item>
+        <item name="android:textSize">@dimen/size_26sp</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+    <style name="button_TextSize_14_White_Padding_10" parent="@android:style/Widget.Button">
+        <item name="android:textColor">#fff</item>
+        <item name="android:textSize">@dimen/size_14sp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:padding">10dp</item>
+    </style>
+    <style name="button_TextSize_18_White_Padding_10" parent="@android:style/Widget.Button">
+        <item name="android:textColor">#fff</item>
+        <item name="android:textSize">@dimen/size_18sp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:padding">10dp</item>
+    </style>
+    <style name="button_TextSize_22_White_Padding_10" parent="@android:style/Widget.Button">
+        <item name="android:textColor">#fff</item>
+        <item name="android:textSize">@dimen/size_22sp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:padding">10dp</item>
+    </style>
+    <style name="button_TextSize_26_White_Padding_10" parent="@android:style/Widget.Button">
+        <item name="android:textColor">#fff</item>
+        <item name="android:textSize">@dimen/size_26sp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:padding">10dp</item>
+    </style>
+    <style name="textView_Size_14_Grey" parent="@android:style/Widget.TextView">
+        <item name="android:textColor">#a9a9a9</item>
+        <item name="android:textSize">@dimen/size_14sp</item>
+    </style>
+    <style name="textView_Size_18_Grey" parent="@android:style/Widget.TextView">
+        <item name="android:textColor">#a9a9a9</item>
+        <item name="android:textSize">@dimen/size_18sp</item>
+    </style>
+    <style name="textView_Size_22_Grey" parent="@android:style/Widget.TextView">
+        <item name="android:textColor">#a9a9a9</item>
+        <item name="android:textSize">@dimen/size_22sp</item>
+    </style>
+    <style name="textView_Size_26_Grey" parent="@android:style/Widget.TextView">
+        <item name="android:textColor">#a9a9a9</item>
+        <item name="android:textSize">@dimen/size_26sp</item>
+    </style>
+    <style name="textView_Size_18_White" parent="@android:style/Widget.TextView">
+        <item name="android:textColor">#fff</item>
+        <item name="android:textSize">@dimen/size_18sp</item>
+    </style>
+    <style name="textView_Size_22_White" parent="@android:style/Widget.TextView">
+        <item name="android:textColor">#fff</item>
+        <item name="android:textSize">@dimen/size_22sp</item>
+    </style>
+    <style name="textView_Size_26_White" parent="@android:style/Widget.TextView">
+        <item name="android:textColor">#fff</item>
+        <item name="android:textSize">@dimen/size_26sp</item>
+    </style>
+    <style name="textView_Size_30_White" parent="@android:style/Widget.TextView">
+        <item name="android:textColor">#fff</item>
+        <item name="android:textSize">@dimen/size_30sp</item>
+    </style>
+    <style name="textView_Size_34_White" parent="@android:style/Widget.TextView">
+        <item name="android:textColor">#fff</item>
+        <item name="android:textSize">@dimen/size_34sp</item>
+    </style>
+    <style name="textView_Size_38_White" parent="@android:style/Widget.TextView">
+        <item name="android:textColor">#fff</item>
+        <item name="android:textSize">@dimen/size_38sp</item>
+    </style>
+    <style name="textView_Size_42_White" parent="@android:style/Widget.TextView">
+        <item name="android:textColor">#fff</item>
+        <item name="android:textSize">@dimen/size_42sp</item>
+    </style>
+    <style name="textView_Size_18_Black" parent="@android:style/Widget.TextView">
+        <item name="android:textColor">#000</item>
+        <item name="android:textSize">@dimen/size_18sp</item>
+    </style>
+    <style name="textView_Size_22_Black" parent="@android:style/Widget.TextView">
+        <item name="android:textColor">#000</item>
+        <item name="android:textSize">@dimen/size_22sp</item>
+    </style>
+    <style name="textView_Size_26_Black" parent="@android:style/Widget.TextView">
+        <item name="android:textColor">#000</item>
+        <item name="android:textSize">@dimen/size_26sp</item>
+    </style>
+    <style name="textView_Size_30_Black" parent="@android:style/Widget.TextView">
+        <item name="android:textColor">#000</item>
+        <item name="android:textSize">@dimen/size_30sp</item>
+    </style>
+    <style name="textView_Size_18_Black_Bold" parent="@android:style/Widget.TextView">
+        <item name="android:textColor">#000</item>
+        <item name="android:textSize">@dimen/size_18sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="textView_Size_22_Black_Bold" parent="@android:style/Widget.TextView">
+        <item name="android:textColor">#000</item>
+        <item name="android:textSize">@dimen/size_22sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="textView_Size_26_Black_Bold" parent="@android:style/Widget.TextView">
+        <item name="android:textColor">#000</item>
+        <item name="android:textSize">@dimen/size_26sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="textView_Size_30_Black_Bold" parent="@android:style/Widget.TextView">
+        <item name="android:textColor">#000</item>
+        <item name="android:textSize">@dimen/size_30sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="checkBox_Size_14_White" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:textColor">#fff</item>
+        <item name="android:button">@drawable/checkbox_selector</item>
+        <item name="android:textSize">@dimen/size_14sp</item>
+        <item name="android:padding">5dp</item>
+    </style>
+    <style name="checkBox_Size_18_White" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:textColor">#fff</item>
+        <item name="android:button">@drawable/checkbox_selector</item>
+        <item name="android:textSize">@dimen/size_18sp</item>
+        <item name="android:padding">5dp</item>
+    </style>
+    <style name="checkBox_Size_22_White" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:textColor">#fff</item>
+        <item name="android:button">@drawable/checkbox_selector</item>
+        <item name="android:textSize">@dimen/size_22sp</item>
+        <item name="android:padding">5dp</item>
+    </style>
+
+</resources>

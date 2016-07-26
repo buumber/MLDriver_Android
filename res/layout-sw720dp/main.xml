@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:id="@+id/topbar" android:gravity="center_vertical"
+        android:paddingLeft="10dp" android:paddingRight="10dp" android:background="#007D35">
+        <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnSetting" android:background="@drawable/setting_button"/>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="(1234)"
+                android:id="@+id/tvDriverID"
+                style="@style/textView_Size_22_White"
+                android:layout_marginLeft="0dp"
+                android:gravity="center_horizontal" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nguyễn Văn Đông A"
+                android:id="@+id/tvDriverName"
+                android:layout_marginLeft="0dp"
+                style="@style/textView_Size_22_White"
+                android:gravity="center_horizontal" />
+        </LinearLayout>
+        <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnExit" android:background="@drawable/logout_button"/>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/scrollView2">
+
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" android:id="@+id/content">
+            <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:padding="20dp"
+                    android:gravity="center_horizontal">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+                </LinearLayout>
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Bản đồ\nvị trí"
+                    android:id="@+id/btnMap"
+                    android:background="@drawable/main_button"
+                    android:drawableTop="@drawable/map_location" android:padding="10dp"
+                    android:layout_weight="7"
+                    style="@style/button_TextSize_22_Black_Padding_10"/>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+                </LinearLayout>
+                <Button android:layout_width="0dp" android:layout_height="wrap_content" android:text="DS Khách\nđang chờ"
+                        android:id="@+id/btnCustomerList" android:background="@drawable/main_button"
+                        android:drawableTop="@drawable/call_taxi" android:padding="10dp"
+                        android:layout_weight="7"
+                        style="@style/button_TextSize_22_Black_Padding_10"/>
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Khách\ntrên xe"
+                    android:id="@+id/btnCurrentOrder"
+                    android:background="@drawable/main_button"
+                    android:drawableTop="@drawable/customer_on_car"
+                    android:padding="10dp"
+                    android:visibility="gone"
+                    android:layout_weight="7"
+                    android:textSize="13sp"
+                    style="@style/button_TextSize_14_Black_Padding_10"/>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"/>
+            </LinearLayout>
+            <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:layout_gravity="center_horizontal" android:padding="20dp"
+                    android:gravity="center_horizontal">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"/>
+
+                <Button android:layout_width="0dp" android:layout_height="wrap_content" android:text="Thống kê \ntrong ngày"
+                        android:id="@+id/btnReport" android:background="@drawable/main_button"
+                        android:enabled="false"
+                        android:drawableTop="@drawable/report" android:padding="10dp"
+                        android:layout_weight="7"
+                        style="@style/button_TextSize_22_Black_Padding_10"/>
+                <LinearLayout android:orientation="horizontal" android:layout_width="0dp"
+                              android:layout_height="match_parent"
+                              android:layout_weight="1"/>
+                <Button android:layout_width="0dp" android:layout_height="wrap_content" android:text="Đón khách\ntrên đường"
+                        android:id="@+id/btnCustomerCatch" android:background="@drawable/main_button"
+                        android:drawableTop="@drawable/catch_taxi" android:padding="10dp"
+                        android:layout_weight="7"
+                        style="@style/button_TextSize_22_Black_Padding_10"/>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"/>
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:layout_gravity="center_horizontal" android:padding="20dp"
+                android:gravity="center_horizontal">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"/>
+
+                <Button android:layout_width="0dp" android:layout_height="wrap_content" android:text="Điểm\nthưởng"
+                        android:id="@+id/btnMyScore" android:background="@drawable/main_button"
+                        android:enabled="false"
+                        android:drawableTop="@drawable/my_score" android:padding="10dp"
+                        android:layout_weight="7"
+                        style="@style/button_TextSize_22_Black_Padding_10"/>
+                <LinearLayout android:orientation="horizontal" android:layout_width="0dp"
+                              android:layout_height="match_parent"
+                              android:layout_weight="1"/>
+                <Button android:layout_width="0dp" android:layout_height="wrap_content" android:text="Gọi\nhỗ trợ"
+                        android:id="@+id/btnCallSupport" android:background="@drawable/main_button"
+                        android:enabled="false"
+                        android:drawableTop="@drawable/support_24h" android:padding="10dp"
+                        android:layout_weight="7"
+                        style="@style/button_TextSize_22_Black_Padding_10"/>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="10dp" android:id="@+id/bottombar">
+    </LinearLayout>
+</LinearLayout>
